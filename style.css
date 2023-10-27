@@ -1,0 +1,156 @@
+* {
+    background: #F2BD81
+
+    ; 
+}
+
+body{
+
+}
+
+.welcome {
+    color: white; 
+    font-weight: 800;
+    border-style: inset;
+    border-radius: 0px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #85b9ea;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #85b9ea; 
+    font-weight: 600;
+    border-style: inset;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+nav a:hover {
+    background-color: #F2BD81;
+}
+
+ul li {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight:300;
+    color:#404969;
+    display: grid;
+    text-align: center;
+    font-size: 50px
+
+}
+
+#photo {
+    border-radius: 100px;
+    border-style: inset;
+    border-width: 20px;
+    border-color: #85b9ea;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paragraph {
+    font-size: larger;
+    color:#85b9ea;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.about {
+    font-size: 65px;
+}
+
+.work {
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+#work-content {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.links a{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#coder {
+    width: 300px;
+}
+
+#food {
+    width: 300px;
+    height: 270px;
+}
+
+
+#vacation {
+    width: 300px;
+    height: 200px;
+}
+
+#Maldives {
+    width: 300px;
+    height: 200px;
+}
+
+#Ethnicity {
+    width: 300px;
+    height: 200px;
+}
+#NewYork {
+    width: 300px;
+    height: 200px;
+}
+.contact {
+    font-size: 65px;
+}
+
+#contact-content {
+    font-size: 23px;
+}
+
+.methods {
+    font-size: 20px;
+}
+
+#message {
+    width: 500px;
+    height: 200px;
+    
+}
+
+#footer {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;    
+}
